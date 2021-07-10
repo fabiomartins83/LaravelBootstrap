@@ -16,8 +16,8 @@
     <script type="text/javascript" scr="{{ asset('js/jquery.js') }}"></script>
     <script type="text/javascript" scr="{{ asset('js/bootstrap.js') }}"></script>
     <link type="text/css" rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
-    <link type="text/css" rel="stylesheet" href="{{ asset('css/style-dark.css') }}">
-	<link type="text/css" rel="stylesheet" id="css-light" href="" data-href="{{ asset ('./css/style-light.css') }}">
+    <link type="text/css" rel="stylesheet" href="{{ asset('css/style-light.css') }}">
+	<link type="text/css" rel="stylesheet" id="css-light" href="" data-href="{{ asset ('./css/style-dark.css') }}">
 </head>
 
 <body id="body" onload="">
