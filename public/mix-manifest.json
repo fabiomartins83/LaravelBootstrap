@@ -1,5 +1,6 @@
 {
-    "/css/style.css": "/css/style.css",
+    "/css/style-light.css": "/css/style-light.css",
+    "/css/style-dark.css": "/css/style-dark.css",
     "/js/jquery.js": "/js/jquery.js",
     "/js/bootstrap.js": "/js/bootstrap.js",
     "/js/script.js": "/js/script.js"

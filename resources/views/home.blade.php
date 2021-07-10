@@ -16,7 +16,8 @@
     <script type="text/javascript" scr="{{ asset('js/jquery.js') }}"></script>
     <script type="text/javascript" scr="{{ asset('js/bootstrap.js') }}"></script>
     <link type="text/css" rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
-    <link type="text/css" rel="stylesheet" href="{{ asset('css/style.css') }}">  
+    <link type="text/css" rel="stylesheet" href="{{ asset('css/style-dark.css') }}">
+	<link type="text/css" rel="stylesheet" id="css-light" href="" data-href="{{ asset ('./css/style-light.css') }}">
 </head>
 
 <body id="body" onload="">
@@ -27,12 +28,12 @@
 		</div>
 	</header>
     <main id="principal">
-		<h1 id="tituloprincipal" class="titulo destaque">Laravel + Bootstrap + JQuery</h1>
+		<h1 id="tituloprincipal" class="titulo">Laravel + Bootstrap + JQuery</h1>
 		<br>
         <section id="secaoprincipal">
             <h2 id="titulodesecao1" class="titulo">Testando Bootstrap.</h2><br>
 			<br>
-			<div id="textosecao1" class="corpodetexto">
+			<div id="textosecao1" class="corpodetexto central">
                 <p>Este é um teste de implementação simultânea de frameworks Laravel e Bootstrap. </p>
                 <p>Website desenvolvido por Fábio de Almeida Martins em 2021. </p>
 			</div>

@@ -20,7 +20,8 @@ mix
 /*
     .sass('node_modules/bootstrap/scss/bootstrap.scss','public/css/bootstrap.css')
 */
-    .sass('resources/css/style.scss', 'public/css/style.css')
+    .sass('resources/css/style-dark.scss', 'public/css/style-dark.css')
+    .sass('resources/css/style-light.scss', 'public/css/style-light.css')
     .scripts('node_modules/jquery/dist/jquery.js','public/js/jquery.js')
     .scripts('node_modules/bootstrap/dist/js/bootstrap.bundle.js','public/js/bootstrap.js') 
     .scripts('resources/js/app.js', 'public/js/script.js')
