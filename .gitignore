@@ -1,5 +1,8 @@
-\audio
 \backup
+\temp
+\teste
 \testes
 \anotacoes
 *.txt
+teste-*.html
+temp-*.html

@@ -18,7 +18,8 @@ mix.js('resources/js/app.js', 'public/js')
 
 mix 
 /*
-    .sass('node_modules/bootstrap/scss/bootstrap.scss','public/css/bootstrap.css')
+    .sass('resources/css/bootstrap.scss', 'public/css/bootstrap.css')
+    .sass('node_modules/bootstrap/scss/bootstrap.scss', 'public/css/bootstrap.css')
 */
     .sass('resources/css/style-dark.scss', 'public/css/style-dark.css')
     .sass('resources/css/style-light.scss', 'public/css/style-light.css')
